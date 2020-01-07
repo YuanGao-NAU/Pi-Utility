@@ -50,7 +50,7 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a target="_blank" href="http://ee-fans.com/?p=16">如何安装</a></li>
-                            <li><a target="_blank" href="https://github.com/spoonysonny/pi-dashboard">GitHub Source</a></li>
+                            <li><a target="_blank" href="https://github.com/YuanGao-NAU/Pi-Utility">GitHub Source</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -239,7 +239,7 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
             <div class="col-md-12">
                 <div id="footer">
                     <hr style="margin: 20px 0 10px 0;" />
-                    <p class="pull-left" style="font-size: 12px;">Powered by <a target="_blank" href="http://maker.quwj.com/project/10"><strong>Pi Dashboard</strong></a> v<?php echo($D['version']) ?>, <a target="_blank" href="http://www.nxez.com">NXEZ.com</a> all rights reserved.
+                    <p class="pull-left" style="font-size: 12px;">Powered by <a target="_blank" href="http://ee-fans.com/how-to-install-pi-dashboard-on-raspberry-pi">Pi Dashboard</a> v<?php echo($D['version']) ?>, <a target="_blank" href="ee-fans.com">ee-fans.com</a> all rights reserved.
                     </p>
                 </div>
             </div>
