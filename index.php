@@ -49,7 +49,10 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a target="_blank" href="http://ee-fans.com/?p=16">如何安装</a></li>
+                            <li><a target="_blank" href="http://ee-fans.com/?p=16">如何安装(Rock64)</a></li>
+                            <li><a target="_blank" href="http://ee-fans.com/how-to-install-pi-dashboard-on-raspberry-pi/">如何安装(Raspberry Pi)</a></li>
+                            <li><a target="_blank" href="http://ee-fans.com/how-to-install-pi-dashboard-on-raspberry-pi/">How to install(Raspberry Pi)</a></li>
+                            <li><a target="_blank" href="http://ee-fans.com/how-to-deploy-pi-dashboard-on-rock64/">How to install(Rock64)</a></li>
                             <li><a target="_blank" href="https://github.com/YuanGao-NAU/Pi-Utility">GitHub Source</a></li>
                         </ul>
                     </li>
