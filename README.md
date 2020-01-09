@@ -5,4 +5,6 @@ A WebUI dashboard for IoT devices likes raspberry pi.
 
 [Install on Rock64](http://ee-fans.com/how-to-deploy-pi-dashboard-on-rock64/)
 
+[Sample page running on a Rock64](http://ee-fans.com/pi-dashboard)
+
 Licensed under the GPL v3.0 license.
