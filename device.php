@@ -49,6 +49,8 @@ if (($str = @file("/proc/cpuinfo")) !== false){
         else{
             $D['cpu']['model'] = $model[1][0].$bogomips[1][0].' ×'.$D['cpu']['count'];
         }
+        $tar = "processor";
+        $D['cpu']['count'] = substr_count($str, $tar);
     }
 }
 else{
