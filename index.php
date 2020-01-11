@@ -4,7 +4,7 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Pi Dashboard</title>
+    <title>Pi Utility</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -45,7 +45,8 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a target="_blank" href="http://ee-fans.com">Yuan's Blog</a></li>
+                    <li><a target="_blank" href="http://ee-fans.com">Open source hardware fans</a></li>
+                    <li><a target="_blank" href="https://github.com/YuanGao-NAU/Pi-Utility">GitHub Source</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
@@ -53,7 +54,6 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
                             <li><a target="_blank" href="http://ee-fans.com/how-to-install-pi-dashboard-on-raspberry-pi/">如何安装(Raspberry Pi)</a></li>
                             <li><a target="_blank" href="http://ee-fans.com/how-to-install-pi-dashboard-on-raspberry-pi/">How to install(Raspberry Pi)</a></li>
                             <li><a target="_blank" href="http://ee-fans.com/how-to-deploy-pi-dashboard-on-rock64/">How to install(Rock64)</a></li>
-                            <li><a target="_blank" href="https://github.com/YuanGao-NAU/Pi-Utility">GitHub Source</a></li>
                         </ul>
                     </li>
                 </ul>
