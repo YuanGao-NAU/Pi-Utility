@@ -40,7 +40,7 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Pi Utility</a>
+                <a class="navbar-brand" href="https://github.com/YuanGao-NAU/Pi-Utility">Pi Utility</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
