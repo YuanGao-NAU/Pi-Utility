@@ -17,18 +17,15 @@ if (isset($_GET['ajax']) && $_GET['ajax'] == "true"){
     exit;
 }
 
-$num = rand(5, 2000)
 $ch = curl_init();
 $timeout = 0;
-
 curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'));
-$url = "http://ee-fans.com/?p=".$num;
+$url = "http://ee-fans.com/";
 curl_setopt($ch, CURLOPT_URL, $url);
 $contents = curl_exec($ch);
-?>
 
 $D['version'] = '1.0.0';
 $D['model'] = get_device_model();
