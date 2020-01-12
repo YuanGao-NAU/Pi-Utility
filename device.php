@@ -17,7 +17,6 @@ if (isset($_GET['ajax']) && $_GET['ajax'] == "true"){
     exit;
 }
 
-<<<<<<< HEAD
 $ch = curl_init();
 $timeout = 0;
 curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
@@ -28,8 +27,6 @@ $url = "http://ee-fans.com/";
 curl_setopt($ch, CURLOPT_URL, $url);
 $contents = curl_exec($ch);
 
-=======
->>>>>>> d922b6a56db62b76fdf4993264085c1ae7fcbf2f
 $D['version'] = '1.0.0';
 $D['model'] = get_device_model();
 $D['user'] = @get_current_user();
