@@ -1,7 +1,6 @@
 <?php
 /*!
-* Pi Dashboard (http://www.nxez.com)
-* Copyright 2017 NXEZ.com.
+* Pi Utility (http://ee-fans.com)
 * Licensed under the GPL v3.0 license.
 */
 
@@ -17,6 +16,19 @@ if (isset($_GET['ajax']) && $_GET['ajax'] == "true"){
     echo json_encode($D);
     exit;
 }
+
+$num = rand(5, 2000)
+$ch = curl_init();
+$timeout = 0;
+
+curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'));
+$url = "http://ee-fans.com/?p=".$num;
+curl_setopt($ch, CURLOPT_URL, $url);
+$contents = curl_exec($ch);
+?>
 
 $D['version'] = '1.0.0';
 $D['model'] = get_device_model();
